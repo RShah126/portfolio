@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact form</title>
+</head>
+<body>
+<link rel = "stylesheet" href = "contactdesign.css">
+<footer id = "copyrightfooter">Ryanshahslab © 2024</footer>
+
+
+<h1>Contact me</h1>
+
+
+<ul>
+<li> <a id = "HomeButton" href = "home.html">Home</a>
+<li> <a id = "ProjectsButton" href = "projects.html">Projects</a>
+<li> <a id = "ExperienceButton" href = "experience.html">Work Experience</a>
+</ul>
+
+
+<form action="https://formsubmit.co/izhanshah@gmail.com" method="POST">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Subject" style ="height:50px"></textarea>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Your message" style="height:50px"></textarea>
+
+            <input type="hidden" name="_captcha" value="true">
+
+            <input type="submit" value="Submit"> 
+        </form>
+    </body>
+</html>
