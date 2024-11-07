@@ -60,14 +60,14 @@ img {
 
 #Bio {
     color: white;
-    font-family:fantasy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     bottom: 525px;
 }
 
 #SkillsBio{
     color: white;
-    font-family: fantasy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     bottom: 310px;
 }
