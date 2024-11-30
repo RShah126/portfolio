@@ -1,0 +1,83 @@
+body {
+    background-color: green;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li a {
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: gray;
+    }
+}
+
+
+#HomeButton {
+    position: absolute;
+    right: 370px;
+    top: 16px;
+}
+
+#EducationButton {
+    position: absolute;
+    right: 288px;
+    top: 16px;
+}
+
+#ProjectsButton {
+    position: absolute;
+    right: 220px;
+    top: 16px;
+}
+
+
+#ContactButton {
+    position: absolute;
+    right: 150px;
+    top: 16px;
+}
+
+
+#jacejobheader {
+    position: absolute;
+    bottom: 600px;
+    font-size: 15px;
+    left: 34px;
+    color: white;
+}
+
+#fhi360jobheader {
+    position: absolute;
+    bottom: 555px;
+    font-size: 15px;
+    left: 34px;
+    color: white;
+}
+
+#corpsjobheader {
+    position: absolute;
+    bottom: 515px;
+    font-size: 15px;
+    left: 34px;
+    color: white;
+}
+
+
+#servicecorpsheader {
+    position: absolute;
+    bottom: 185px;
+    color: black
+}
+
+#copyrightfooter {
+    position: absolute;
+    bottom: 85px;
+    right: 755px;
+    color: white;
+}
